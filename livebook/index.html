@@ -8,23 +8,48 @@
     <title>Live Book</title>
   </head>
   <body>
-    <div id="menubar">
-      <ul class="menu">
-        <li>Map</li>
-        <li>Character</li>
-        <li>Story</li>
-      </ul>
-    </div>
-    <div id="room-char-wrapper">
-      <div id = "character" class = "column">
-        <div class="title">Character</div>
-        <div class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </div>
-
-      <div id = "room" class = "column">
-        <div class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-        <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-      </div>
+    <div id="page">
+        <div id="menubar" class="hide">
+            <div class="menu">
+                <!-- TODO: Rename this div because it's completely wrong :'D  -->
+                <div id="spacer"></div>
+                <a href="#" class="menu-button">Map</a>
+                <a href="#" class="menu-button">Character</a>
+                <a href="#" class="menu-button">Story</a>
+            </div>
+        </div>
+        <div id="content-wrapper">
+          <div class="column" id="left">
+              <div class="column-content">
+                <div class="map-wrapper">
+                    <div class="map"></div>
+                </div>
+                <div class="paragraph">
+                    <div class="title">Actions</div>
+                    <ul>
+                      <li><a href="">Do something.</a></li>
+                      <li><a href="">Do something.</a></li>
+                      <li><a href="">Do something.</a></li>
+                      <li><a href="">Do something.</a></li>
+                      <li><a href="">Do something.</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="column-div-wrapper">
+              <div class="column-div"></div>
+            </div>
+            <div class="column" id="right">
+              <div id="plot" class="column-content">
+                <div class="paragraph">
+                    <div class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor in reprehenderit in labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  ut aliquip ex ea commo voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit aniecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      </div>
+                </div>
+              </div>
+            </div>
+        </div>
     </div>
   </body>
 </html>
